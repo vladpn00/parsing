@@ -4,9 +4,5 @@ $site = iconv('windows-1251', 'UTF-8',$site);
 $site = str_replace("lists/m_act[year]/'+this.value+'/", "one.php?a='+this.value+'", $site );
 echo $site;
 
-
-
-
-
 ?>
 
